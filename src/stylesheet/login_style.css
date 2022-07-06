@@ -3,10 +3,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(0deg, rgba(2, 96, 0, 0.3), rgba(2, 96, 0, 0.3)),
-    rgba(12, 197, 163, 0.79); */
-    background: url(./img/background.jpg) center center/cover no-repeat;
-    overflow: hidden;
+  overflow-x: hidden;
 }
 .name {
   color: white;
@@ -25,7 +22,7 @@ body {
 .logo img {
   width: 150px;
   height: 150px;
-  border: solid 2px white;
+  /* border: solid 2px white; */
   border-radius: 100%;
 }
 .login_panel {
@@ -55,34 +52,72 @@ body {
   color: black;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.login{
+.login {
   margin: 15px;
   padding: 10px;
   outline: none;
   border: 2px outset darkgray;
   border-radius: 50px;
 }
-.login_btn{
+.login_btn {
   background: cyan;
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
 }
-.login_btn:hover{
+.login_btn:hover {
   background: rgb(0, 255, 42);
 }
-.other{
+.other {
   padding: 10px;
 }
-.other:hover{
+.other:hover {
   color: brown;
 }
 
+/* footer */
 
-
-/* loader */
+.footer {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-content: space-between;
+  background: rgb(39, 33, 33);
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  letter-spacing: .5px;
+}
+.social{
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  gap: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.quick {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer_links{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer_links:hover{
+  color: #c1c1c1;
+}
+.about{
+  color: #fffdfd;
+}
