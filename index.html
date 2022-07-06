@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <!-- <link rel="stylesheet" href="login_style.css"> -->
+  <link rel="stylesheet" href="./src/stylesheet/login_style.css">
+</head>
+<body>
+  <div class="hospital">
+    <div class="name">
+    <h1 style="font-size: 50px;">CT HOSPITAL</h1>
+  </div>
+  </div>
+  <div class="login_container">
+    <!-- Admin -->
+    <div class="admin_panel login_panel">
+      <div class="admin_logo logo">
+        <img src="./src/img/admin.png" alt="admin_logo">
+        <h2 class="title">Admin Login</h2>
+        <form class="form">
+          <input type="text" class="login" id="username" placeholder="Enter Username">
+          <input type="password" class="login" id="password" placeholder="Enter Password">
+          <input type="submit" class="login login_btn" id="submit" value="LOGIN" >
+          <a href="./pages/doctor.html" class="other">Doctor Login</a>
+          <a href="./pages/employee.html" class="other">Employee Login</a>
+          <a href="./pages/admin_dashboard.html" class="other">Admin Page Without Login</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

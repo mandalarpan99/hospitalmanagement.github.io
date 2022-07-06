@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Dashboard</title>
+  <link rel="stylesheet" href="./../src/stylesheet/admin_dashboard.css">
+  <link rel="stylesheet" href="./../src/stylesheet/animation.css">
+  <!-- font awasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="dashboard">
+    <div class="admin">
+      <div class="header">
+        <span class="logo">CT HOSPITAL</span>
+        <a class="log_out" href="./doctor.html"><i class="fa fa-sign-out"></i> </a>
+      </div>
+      <div class="profile">
+        <img src="./../src/img/doctor.png" alt="doctor_profile">
+        <span class="username">Doctor</span>
+        <span class="username">Dr. Arpan</span>
+      </div>
+        <div class="quick_links">
+          <a class="links" href="./admin_dashboard.html"><li><i class="fa fa-dashboard" ></i>  Dashboard</li></a>
+          <a class="links" href="./doctor_dashboard.html" id="active"><li><i class="fa fa-user-md"></i>  Doctors</li></a>
+          <a class="links" href="./employee_dashboard.html"><li><i class="fa-solid fa-users"></i>  Employee</li></a>
+          <a class="links" href="./appointment_dashboard.html"><li><i class="fa-regular fa-calendar-check"></i>  Appointment</li></a>
+        </div>
+        <div class="card">
+          <h1 id="time" class="time"></h1>
+          <h1 id="date" class="date"></h1>
+        </div>
+    </div>
+
+    <!-- boxes -->
+
+    <div class="main_container">
+
+      <!-- Doctors -->
+
+      <div class="doctor container">
+        <span class="title"><i class="fa fa-user-md"></i>  Total Patients </span>
+        <span class="detail">See Patient List / See Reports</span>
+      </div>
+
+      <!-- Appointments -->
+
+      <div class="appointment container">
+        <span class="title"><i class="fa-regular fa-calendar-check"></i>  Total Appointment</span>
+        <span class="detail">See Lists / Confirm / Reject Appointment</span>
+      </div>
+
+      <!-- Employees -->
+      
+      <div class="employee container">
+        <span class="title"><i class="fa-solid fa-gear"></i>  Setting</span>
+        <span class="detail">Edit Details</span>
+      </div>
+
+
+      <div class="main_container_box">
+
+        
+        
+      </div>
+      
+    </div>
+  </div>
+
+
+
+  <script src="./../src/script/script.js"></script>
+</body>
+</html>

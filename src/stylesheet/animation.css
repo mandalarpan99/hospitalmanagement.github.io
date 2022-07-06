@@ -1,0 +1,93 @@
+/* CT hospital animation */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: slide-in 1000ms;
+  animation-delay: 500ms;
+}
+
+
+/* Animation all Container */
+@keyframes scale {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+
+.container .detail {
+  animation: scale 1000ms;
+}
+
+
+/* watch animated border */
+
+
+
+/* Click here animation */
+
+@keyframes bounce {
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.click_here {
+  animation:
+    bounce 300ms
+    alternate infinite
+    cubic-bezier(.2, .65, .6, 1);
+}
+
+
+
+
+
+/* Animation Quick Links */
+@keyframes rotate {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.links {
+  animation: rotate 1000ms;
+  animation-timing-function: linear;
+}
+
+
+/* Animation doctors box */
+
+@keyframes drop-in {
+  from {
+    transform: rotate(-30deg) translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+
+.doctor_box {
+  animation: drop-in 1000ms;
+}

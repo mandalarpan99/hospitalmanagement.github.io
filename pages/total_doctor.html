@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./../src/stylesheet/admin_dashboard.css">
+  <link rel="stylesheet" href="./../src/stylesheet/animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="dashboard">
+    <div class="admin">
+      <div class="header">
+        <span class="logo">CT HOSPITAL</span>
+        <a class="log_out" href="./../index.html"><i class="fa fa-sign-out"></i> </a>
+      </div>
+      <div class="profile">
+        <img src="./../src/img/admin.png" alt="admin_profile">
+        <span class="username">Admin</span>
+        <span class="username">Pritesh</span>
+      </div>
+        <div class="quick_links">
+          <a class="links" href="./admin_dashboard.html" id="active"><li><i class="fa fa-dashboard" ></i>  Dashboard</li></a>
+          <a class="links" href="./doctor_dashboard.html"><li><i class="fa fa-user-md"></i>  Doctors</li></a>
+          <a class="links" href="./employee_dashboard.html"><li><i class="fa-solid fa-users"></i>  Employee</li></a>
+          <a class="links" href="./appointment_dashboard.html"><li><i class="fa-regular fa-calendar-check"></i>  Appointment</li></a>
+        </div>
+        <div class="card">
+          <h1 id="time" class="time"></h1>
+          <h1 id="date" class="date"></h1>
+        </div>
+    </div>
+
+    <!-- boxes -->
+
+    <div class="main_container">
+
+      <!-- Doctors -->
+  
+      <div class="doctor container" onclick="location.href='total_doctor.html'" id="box_active">
+        <span class="number">8</span>
+        <span class="title"><i class="fa fa-user-md"></i>  Total Doctors </span>
+        <span class="detail">Add / Delete / Se List / Appointments</span>
+      </div>
+    
+      <!-- Appointments -->
+
+      <div class="appointment container" onclick="location.href='total_appointment.html'">
+        <span class="number">100+</span>
+        <span class="title"><i class="fa-regular fa-calendar-check"></i>  Total Appointment</span>
+        <span class="detail">See Lists / Confirm / Reject / Book Appointment</span>
+      </div>
+
+      <!-- Employees -->
+
+      <div class="employee container" onclick="location.href='new_registration.html'">
+        <span class="number">50+</span>
+        <span class="title"><i class="fa-solid fa-users"></i>  New Registrations</span>
+        <span class="detail">New Registration Doctors / Employees / Patient</span>
+      </div>
+
+      <div class="total_doctor_box">
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Minarul</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Arpan</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Rittwick</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Minarul</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Minarul</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Arpan</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Rittwick</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+
+        <div class="doctor_box">
+          <img src="./../src/img/doctor.png" alt="doctor_profile">
+          <span class="dname">Dr.Minarul</span>
+          <span class="dpost">MBBS</span>
+          <span class="dname">minarul@cthospital.com</span>
+          <span class="dname">1234567890</span>
+        </div>
+      </div>
+  </div>
+
+
+
+  <script src="./../src/script/script.js"></script>
+</body>
+</html>
