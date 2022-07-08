@@ -3,6 +3,7 @@
 @media screen and (max-width: 720px) {
   /* Header Responsive */
   .logo {
+    align-self: center;
     color: white;
     font-size: 10px;
     letter-spacing: 1.4px;
