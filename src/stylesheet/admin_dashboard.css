@@ -4,12 +4,28 @@ body {
 }
 .header {
   background: rgb(0, 125, 241);
-  width: 100wh;
-  padding: 25px;
+  width: 100%;
+  padding-bottom: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.logo {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+}
+.log_out {
+  color: white;
+  text-decoration: none;
+}
+.log_out:hover {
+  color: rgb(0, 255, 255);
+  transition: ease-in-out .5s;
+}
+
+
 .dashboard {
   width: 100%;
   height: 100vh;
@@ -28,8 +44,8 @@ body {
   height: 260px;
 }
 .admin {
-  width: 20%;
-  height: 100vh;
+  width: 150px;
+  height: 100%;
   background: rgb(0, 206, 154);
 }
 .profile img {
@@ -60,20 +76,6 @@ body {
 }
 
 
-.logo {
-  color: white;
-  font-size: 20px;
-  letter-spacing: 1.4px;
-}
-.log_out {
-  color: white;
-  text-decoration: none;
-}
-.log_out:hover {
-  color: rgb(0, 255, 255);
-  transform: scale(1.5);
-}
-
 .main_container {
   position: absolute;
   top: 0;
@@ -89,7 +91,7 @@ body {
 .container {
   width: 30%;
   height: 150px;
-  border: outset 3px silver;
+  border: inset 3px rgb(255, 187, 0);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -127,8 +129,6 @@ body {
   width: 90%;
   height: 60%;
   align-items: center;
-  border: 4px outset rgb(4, 59, 55);
-  background: #024121;
 }
 
 .click_here{
