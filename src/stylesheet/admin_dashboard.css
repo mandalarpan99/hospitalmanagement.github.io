@@ -125,12 +125,11 @@ body {
 }
 
 .main_container_box{
-  display: -webkit-inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   width: 90%;
   height: 60%;
-  align-items: center;
+  gap: 1em;
 }
 
 .click_here{

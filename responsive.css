@@ -63,6 +63,7 @@
 
 .main_container_box {
   gap: 1em;
+  justify-content: center;
 }
 /* container Responsive */
 .container {
