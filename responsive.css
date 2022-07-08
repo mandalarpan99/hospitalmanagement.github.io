@@ -1,6 +1,6 @@
 /* Admin Dashboard Responsive for Android Devices*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   /* Header Responsive */
   .logo {
     align-self: center;
@@ -51,15 +51,11 @@
   .click_here {
     font-size: 0.5em;
   }
-}
+
 .admin {
   width: 150px;
 }
 
-.container {
-  width: 200px;
-  height: 100px;
-}
 .container:hover,
 #box_active {
   background: rgb(9, 163, 235);
@@ -68,4 +64,8 @@
 .main_container_box {
   gap: 1em;
 }
-/* Admin Dashboard Responsive for Android Devices*/
+/* container Responsive */
+.container {
+  width: 200px;
+}
+}
